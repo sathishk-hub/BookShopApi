@@ -11,7 +11,7 @@ class  User(models.Model):
 
 class Book(models.Model):
    book_name = models.CharField(max_length=15, help_text="Enter your book name", blank=False)
-   author_name = models.CharField(max_length=15, help_text="Enter your author name", blank=True)
+   author_name = models.CharField(max_length=300, help_text="Enter your author name", blank=True)
    total_pieces = models.IntegerField(help_text="Enter your total pieces")
    price = models.IntegerField(help_text="Enter the price")
    date = models.DateTimeField(auto_now_add=True)

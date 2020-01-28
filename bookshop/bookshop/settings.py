@@ -45,7 +45,7 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny'
     ],
-    'DATETIME_FORMAT':[ '%I:%M:%S %p'],
+   
     
 }
 REST_SESSION_LOGIN = False
